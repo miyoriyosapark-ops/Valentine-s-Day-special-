@@ -1,2 +1,2 @@
 # Valentine-s-Day-special-
-A tiny Valentine surprise made with love 💖
+A tiny Valentine surprise made with love
