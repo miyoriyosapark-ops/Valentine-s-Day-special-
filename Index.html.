@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine Surprise 💖</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffb6c1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      color: #fff;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+    button {
+      background: #fff;
+      color: #ff1493;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background: #ff1493;
+      color: #fff;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Will you be my Valentine? 💖</h1>
+  <p>MiyoriYosa Park made this for you!</p>
+  <div>
+    <button onclick="yesClick()">YES</button>
+    <button onclick="noClick()">NO</button>
+  </div>
+
+  <script>
+    function yesClick() {
+      alert("Yay! 💕 I'm so happy! 💖");
+      document.body.innerHTML = "<h1>Thank you for saying YES! 💖</h1>";
+    }
+
+    function noClick() {
+      alert("Uh-oh 😢 Try again!");
+    }
+  </script>
+</body>
+</html>
